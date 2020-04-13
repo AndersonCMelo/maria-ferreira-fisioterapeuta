@@ -1,0 +1,67 @@
+body {
+  background: #076653;
+}
+
+.first-section {
+  padding: 60px 0 0;
+  background-image: url("../assets/background-about.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.first-section .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-section .content .title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 70px;
+}
+
+.first-section .content .img {
+  width: 85%;
+  border-radius: 8px;
+  box-shadow: 0px 20px 70px rgba(0, 0, 0, 0.1);
+  margin-bottom: 110px;
+}
+
+.first-section .content .second-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 70%;
+}
+
+.first-section .content .second-block .quote-block .quote {
+  margin-top: 30px;
+
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.first-section .content .second-block .text-block .text {
+  font-size: 16px;
+  line-height: 1.5em;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.first-section .content .second-block .text-block .text + .text {
+  margin-top: 40px;
+}
+
+.first-section .content .second-block .text-block .list {
+  list-style: inside;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #fff;
+}
+
+.first-section .content .second-block .text-block .list .list-item {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,126 @@
+@media (min-width: 821px) {
+  .first-section .content .service .box-img-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .container {
+    max-width: 980px;
+  }
+
+  .first-section .content .service {
+    padding: 0 5%;
+    margin-bottom: 80px;
+  }
+
+  .first-section .content .service .img {
+    max-width: 420px;
+    margin-right: 40px;
+  }
+
+  .first-section .content .service.service2 .img,
+  .first-section .content .service.service4 .img {
+    margin-right: 0;
+    margin-left: 40px;
+  }
+
+  .first-section .content .service.service4 {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 1020px) {
+  .container {
+    max-width: 900px;
+  }
+
+  .first-section .content .service {
+    padding: 0 5%;
+    margin-bottom: 60px;
+  }
+
+  .first-section .content .service .img {
+    max-width: 380px;
+    margin-right: 40px;
+  }
+
+  .first-section .content .service.service4 {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 920px) {
+  .container {
+    max-width: 800px;
+  }
+
+  .first-section .content .service {
+    padding: 0 0;
+    margin-bottom: 60px;
+  }
+
+  .first-section .content .service .img {
+    max-width: 320px;
+    margin-right: 30px;
+  }
+
+  .first-section .content .service.service2 .img,
+  .first-section .content .service.service4 .img {
+    margin-right: 0;
+    margin-left: 30px;
+  }
+
+  .first-section .content .service.service4 {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 820px) {
+  .container {
+    max-width: 100%;
+    width: 90%;
+  }
+
+  .first-section {
+    padding: 40px 0 0;
+    background-image: url("../assets/background-services-page.png");
+    background-repeat: no-repeat;
+    background-position: top 700px right -400px;
+  }
+
+  .first-section .content .page-title {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .first-section .content .service {
+    flex-direction: column;
+    padding: 0 0;
+  }
+
+  .first-section .content .service .img {
+    display: none;
+  }
+
+  .first-section .content .service .box-img-mobile {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+  .first-section .content .service .img-mobile {
+    max-width: 200px;
+  }
+
+  .first-section .content .service.service2,
+  .first-section .content .service.service4 {
+    flex-direction: column;
+  }
+
+  .first-section .content .service.service2 .img,
+  .first-section .content .service.service4 .img {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}

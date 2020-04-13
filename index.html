@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maria Ferreira | Fisioterapeuta</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/favicon.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/mobile-header.css">
+  <link rel="stylesheet" href="./css/homepage.css">
+  <link rel="stylesheet" href="./css/homepage-responsive.css">
+  <link rel="stylesheet" href="./css/footer-bg.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="desktop-header container">
+      <a href="/"><img class="logo" src="./assets/logo.svg" alt="Maria Ferreira Fisioterapeuta"></a>
+
+      <nav class="navigation">
+        <ul class="normal-menu">
+          <li class="menu"><a class="active" href="/">Home</a></li>
+          <li class="menu"><a href="./sobre-mim/">Sobre mim</a></li>
+          <li class="menu"><a href="./servicos/">Serviços</a></li>
+          <li class="menu"><a href="./contato/">Fale comigo</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="mobile-header container">
+      <div class="menu-closed">
+        <a href="/"><img class="logo" src="./assets/logo.svg" alt="Maria Ferreira Fisioterapeuta"></a>
+
+        <a href="#"><img class="btnMenu btnMenu-open" src="./assets/menu-open.svg" alt=""></a>
+      </div>
+      
+      <div class="menu-opened">
+        <div class="header-top">
+          <a href="/"><img class="logo" src="./assets/logo-green.svg" alt="Maria Ferreira Fisioterapeuta"></a>
+
+          <a href="#"><img class="btnMenu btnMenu-close" src="./assets/menu-close.svg" alt=""></a>
+        </div>
+
+        <div class="navigation">
+          <nav>
+            <ul class="menu-list">
+              <li class="menu"><a class="active" href="/">Home</a></li>
+              <li class="menu"><a href="./sobre-mim/">Sobre mim</a></li>
+              <li class="menu"><a href="./servicos/">Serviços</a></li>
+              <li class="menu"><a href="./contato/">Fale comigo</a></li>
+            </ul>
+          </nav>
+        </div>        
+      </div>
+
+    </div>
+  </header>
+
+  <!-- First section -->
+  <section class="first-section">
+    <div class="content container">
+      <div class="text-block">
+        <h1 class="title">Saúde e bem estar<br>são prioridades.</h1>
+        <p class="text">Saúde sempre em primeiro lugar. É assim que pensamos os tratamentos, de modo a gerar bem-estar e qualidade de vida para todos.</p>
+
+        <a href="./servicos/"><button class="button">Conheça nossos serviços</button></a>
+      </div>
+
+      <div class="image-block">
+        <img class="img" src="./assets/Image-topo.png" alt="Fisioterapia">
+      </div>
+    </div>
+  </section>
+
+  <!-- Second section -->
+  <section class="second-section">
+    <div class="content container">
+      <img class="img" src="./assets/foto-cidinha.jpg" alt="Foto de Maria Ferreira Fisioterapeuta">
+
+      <div class="block-text">
+        <h2 class="title">Maria Ferreira Fisioterapeuta</h2>
+        <p class="text">Formada em Fisioterapia pela Universidade Federal da Paraíba (UFPB) e com formação em Terapia Manual e Postural, oferecemos um serviço de fisioterapia humanizado e focado em trazer resultados para os pacientes. A saúde e o bem-estar é nossa prioridade.</p>
+
+        <a href="./sobre-mim/"><button class="button">Conheça-me melhor</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Third section -->
+  <section class="third-section">
+    <div class="content container">
+      <div class="text-block">
+        <h2 class="title">Serviços</h2>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus vestibulum condimentum morbi arcu blandit. Id adipiscing nibh a ut eleifend venenatis duis scelerisque. Odio tincidunt nunc suscipit risus.</p>
+
+        <a href="./servicos/"><button class="button">Veja mais</button></a>
+      </div>
+      <div class="services">
+
+        <div class="service1 service-down" onmouseenter="hoverOn1()" onmouseleave="hoverOff1()">
+          <div class="service-content">
+            <img class="img" src="./assets/Foto-Service-1.png" alt="Fisioterapia convencional">
+            <h3 class="service-title">Fisioterapia convencional</h3>
+            <p class="service-text">A utilização de recursos físicos e naturais, de ação isolada ou conjunta com a finalidade de prevenir, tratar e reabilitar comprometimentos físicos.</p>
+            <!-- <img style="opacity: 0.1;" class="icon" src="./assets/chevron-up.svg" alt=""> -->
+          </div>
+        </div>
+
+        <div class="service2" onmouseenter="hoverOn2()" onmouseleave="hoverOff2()">
+          <div class="service-content">
+            <img class="img" src="./assets/Foto-Service-2.png" alt="Terapia manual">
+            <h3 class="service-title">Terapia manual</h3>
+            <p class="service-text">Recurso de uso exclusivo das mãos com procedimentos específicos como massagens, manipulação, mobilização articular e neural, estabilização segmentar, reeducação postural, dentre outros.</p>
+            <!-- <img style="opacity: 0.1;" class="icon" src="./assets/chevron-up.svg" alt=""> -->
+          </div>
+        </div>
+        
+        <div class="service3 service-down" onmouseenter="hoverOn3()" onmouseleave="hoverOff3()">
+          <div class="service-content">
+            <img class="img" src="./assets/Foto-Service-3.png" alt="Limpeza de pele">
+            <h3 class="service-title">Limpeza de pele</h3>
+            <p class="service-text">A limpeza de pele profunda é uma técnica com a finalidade de afinar a camada superficial da pele, remover as células mortas, cravos, miliuns, e uniformizar o aspecto da pele.</p>
+            <!-- <img style="opacity: 0.1;" class="icon" src="./assets/chevron-up.svg" alt=""> -->
+          </div>
+        </div>
+
+        <div class="service4" onmouseenter="hoverOn4()" onmouseleave="hoverOff4()">
+          <div class="service-content">
+            <img class="img" src="./assets/Foto-Service-4.png" alt="Massagem terapêutica relaxante">
+            <h3 class="service-title">Massagem terapêutica relaxante</h3>
+            <p class="service-text">A massoterapia é um recurso manual usado para obter efeitos terapêuticos. É um ótimo recurso que traz benéficos para a saúde do corpo e da mente.</p>
+            <!-- <img style="opacity: 0.1;" class="icon" src="./assets/chevron-up.svg" alt=""> -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Fourth section -->
+  <section class="fourth-section">
+    <div class="content container">
+      <div class="form-block">
+        <h3 class="title">Entre em contato</h3>
+
+        <form class="form" action="" netlify>
+          <p class="label">Nome</p>
+          <input type="text" name="name">
+
+          <p class="label">Telefone</p>
+          <input type="text" name="phone">
+
+          <p class="label">E-mail</p>
+          <input type="text" name="email">
+
+          <p class="label">Mensagem</p>
+          <textarea name="message" cols="30" rows="10"></textarea>
+
+          <input class="button" type="submit" value="Enviar">
+        </form>
+      </div>
+
+      <div class="image-block">
+        <img class="img" src="./assets/contact-image.png" alt="">
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="content container">
+      <a href="/"><img class="logo" src="./assets/logo-quadrada.svg" alt="Maria Ferreira Fisioterapeuta"></a>
+
+      <div class="social-icons">
+        <a href="mailto:mariaferreira.fisio@gmail.com" target="_blank"><img class="icon mail" src="./assets/mail.svg" alt="Link para o e-mail"></a>
+        <a href="https://www.instagram.com/mariaferreirafisioterapeuta/" target="_blank"><img class="icon instagram" src="./assets/instagram.svg" alt="Link para o Instagram"></a>
+      </div>
+
+      <span class="copy">© 2020 Todos os direitos reservados.</span>
+    </div>
+  </footer>
+
+  <script src="./js/service-script.js"></script>
+  <script src="./js/mobileMenu.js"></script>
+</body>
+</html>
