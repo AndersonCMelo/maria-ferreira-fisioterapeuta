@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="../css/sobre-mim-responsive.css">
   <link rel="stylesheet" href="../css/footer.css">
 </head>
-<body>
+<body id="topo">
   <!-- Header -->
   <header class="header">
     <div class="desktop-header container">
@@ -75,7 +75,7 @@
 
   <!-- Float Button -->
   <div class="top">
-    <a href="./"><img class="button img" src="../assets/arrow-up-white.svg" alt=""></a>
+    <button class="btnTop" onclick="backToTop()"><img class="button img" src="../assets/arrow-up-white.svg" alt=""></button>
   </div> 
 
   <!-- First section -->
@@ -121,5 +121,6 @@
   </footer>
 
   <script src="../js/mobileMenu.js"></script>
+  <script src="../js/btnTop.js"></script>
 </body>
 </html>
